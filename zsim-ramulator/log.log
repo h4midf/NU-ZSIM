@@ -1,0 +1,886 @@
+[H] Starting zsim, built ‫جۆمعه آخشامی ۱۴ اوْکتوْبر ۲۱، ساعات ۱۲:۱۵:۳۲ (+0330)‬ (rev no git repo)
+[H] Creating global segment, 1024 MBs
+[H] Global segment shmid = 98329
+[H] Deadlock detection ON
+[S 0] Started instance
+[S 0] Started RR scheduler, quantum=10000 phases
+prefix: sys.caches.l3.
+****Prefetcher Stream
+prefix: sys.caches.l2.
+****Prefetcher Stream
+prefix: sys.caches.l1i.
+****Prefetcher Stream
+prefix: sys.caches.l1d.
+****Prefetcher Stream
+[S 0] Hierarchy: [ l1i-0 l1d-0 ] -> l2-0
+[S 0] Hierarchy: [ l1i-1 l1d-1 ] -> l2-1
+[S 0] Hierarchy: [ l1i-2 l1d-2 ] -> l2-2
+[S 0] Hierarchy: [ l1i-3 l1d-3 ] -> l2-3
+[S 0] Hierarchy: [ l1i-4 l1d-4 ] -> l2-4
+[S 0] Hierarchy: [ l1i-5 l1d-5 ] -> l2-5
+[S 0] Hierarchy: [ l1i-6 l1d-6 ] -> l2-6
+[S 0] Hierarchy: [ l1i-7 l1d-7 ] -> l2-7
+[S 0] Hierarchy: [ l2-0 l2-1 l2-2 l2-3 l2-4 l2-5 l2-6 l2-7 ] -> l3-0b0..l3-0b3
+[S 0] Initialized system
+[S 0] HDF5 backend: Opening traces.out.zsim.h5
+[S 0] HDF5 backend: Created table, 5256 bytes/record, 200 records/write
+[S 0] HDF5 backend: Opening traces.out.zsim-ev.h5
+[S 0] HDF5 backend: Created table, 5256 bytes/record, 25 records/write
+[S 0] HDF5 backend: Opening traces.out.zsim-cmp.h5
+[S 0] HDF5 backend: Created table, 2336 bytes/record, 1 records/write
+[S 0] Initialization complete
+[S 0] Started process, PID 2150
+[S 0] procMask: 0x0
+[S 0] [0] Adjusting clocks, domain 0, de-ffwd 0
+[S 0] vDSO info initialized
+[H] Attached to global heap
+[S 0] Started contention simulation thread 0
+[S 0] Started scheduler watchdog thread
+[S 0] Thread 0 starting
+[S 0] Thread 3 starting
+[S 0] [3] Post-patching SYS_sched_getaffinity size 128 cpuset 0x7fffe06fdac0
+[S 0] [3] Post-patching SYS_sched_getaffinity size 512 cpuset 0x7fffd80157e0
+[S 0] [3] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fffd8084fb0
+[S 0] [3] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fffd8084fb0
+[S 0] [3] Post-patching SYS_sched_getaffinity size 128 cpuset 0x7fffe06fda70
+[2.070s][info][gc] Using Shenandoah
+[2.104s][info][gc] Heuristics ergonomically sets -XX:+ExplicitGCInvokesConcurrent
+[2.106s][info][gc] Heuristics ergonomically sets -XX:+ShenandoahImplicitGCInvokesConcurrent
+[2.106s][info][gc] Heuristics ergonomically sets -XX:+UseCondCardMark
+[S 0] Thread 4 starting
+[S 0] [4] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fffc0000b20
+[S 0] [4] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fffc0000b20
+[S 0] Thread 5 starting
+[S 0] [5] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fffb8000b20
+[S 0] [5] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fffb8000b20
+[2.273s][info][gc,ergo] Pacer for Idle. Initial: 60948K, Alloc Tax Rate: 1.0x
+[S 0] Thread 6 starting
+[S 0] [6] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fffbc000b20
+[S 0] [6] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fffbc000b20
+[S 0] Thread 7 starting
+[S 0] [7] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fffa8000b20
+[S 0] [7] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fffa8000b20
+[2.328s][info][gc,init] Version: 17-internal+0-adhoc.h4mid.shenandoah-master (release)
+[2.342s][info][gc,init] CPUs: 4 total, 8 available
+[2.355s][info][gc,init] Memory: 11907M
+[2.356s][info][gc,init] Large Page Support: Disabled
+[2.359s][info][gc,init] NUMA Support: Disabled
+[2.360s][info][gc,init] Compressed Oops: Enabled (Zero based)
+[2.361s][info][gc,init] Heap Min Capacity: 7M
+[2.361s][info][gc,init] Heap Initial Capacity: 187M
+[2.362s][info][gc,init] Heap Max Capacity: 2977M
+[2.362s][info][gc,init] Pre-touch: Disabled
+[2.363s][info][gc,init] Mode: Generational
+[2.364s][info][gc,init] Heuristics: Adaptive
+[2.364s][info][gc,init] Heap Region Count: 2976
+[2.365s][info][gc,init] Heap Region Size: 1M
+[2.365s][info][gc,init] TLAB Size Max: 1M
+[2.366s][info][gc,init] Humongous Object Threshold: 1M
+[2.366s][info][gc,init] Parallel Workers: 4
+[2.367s][info][gc,init] Concurrent Workers: 2
+[2.400s][info][gc,metaspace] CDS archive(s) not mapped
+[2.402s][info][gc,metaspace] Compressed class space mapped at: 0x0000000800000000-0x0000000840000000, reserved size: 1073741824
+[2.403s][info][gc,metaspace] Narrow klass base: 0x0000000800000000, Narrow klass shift: 0, Narrow klass range: 0x40000000
+[S 0] Thread 8 starting
+[S 0] [8] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fffa0000b20
+[S 0] [8] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fffa0000b20
+[S 0] [3] Post-patching SYS_sched_getaffinity size 128 cpuset 0x7fffe06fbef0
+[S 0] Thread 9 starting
+[S 0] [9] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff98000b20
+[S 0] [9] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff98000b20
+[S 0] Thread 10 starting
+[S 0] [10] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff9c000b20
+[S 0] [10] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff9c000b20
+[S 0] Thread 11 starting
+[S 0] [11] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff90000b20
+[S 0] [11] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff90000b20
+[S 0] Thread 12 starting
+[S 0] [12] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff94000b20
+[S 0] [12] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff94000b20
+[S 0] Thread 13 starting
+[S 0] [13] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff88000b20
+[S 0] [13] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff88000b20
+[S 0] Thread 14 starting
+[S 0] [14] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff84000b20
+[S 0] [14] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff84000b20
+[S 0] Thread 15 starting
+[S 0] [15] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff7c000b20
+[S 0] [15] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff7c000b20
+[S 0] Thread 16 starting
+[S 0] [16] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff80000b20
+[S 0] [16] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff80000b20
+[S 0] Thread 17 starting
+[S 0] [17] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff74000b20
+[S 0] [17] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff74000b20
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[S 0] Thread 18 starting
+[S 0] [18] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff78000b20
+[S 0] [18] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff78000b20
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[S 0] Thread 19 starting
+[S 0] [19] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff6c000b20
+[S 0] [19] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff6c000b20
+[S 0] [8] Post-patching SYS_sched_getaffinity size 128 cpuset 0x7fffc43fe850
+[S 0] [8] Post-patching SYS_sched_getaffinity size 128 cpuset 0x7fffc43fe850
+[S 0] Thread 19 finished
+[S 0] Thread 18 finished
+[S 0] Thread 20 starting
+[S 0] [20] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff78100c50
+[S 0] [20] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff78100c50
+[S 0] Thread 21 starting
+[S 0] [21] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff6c0cc2c0
+[S 0] [21] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff6c0cc2c0
+Salam
+[S 0] [3] Post-patching SYS_sched_getaffinity size 128 cpuset 0x7fffe06fcf60
+Using scaled threading model. 8 processors detected, 8 threads used to drive the workload, in a possible range of [1,64]
+[S 0] [8] Post-patching SYS_sched_getaffinity size 128 cpuset 0x7fffc43fe850
+Trgiggering yeh
+[28.033s][info][gc          ] Trigger: Explicit GC request (System.gc())
+[28.048s][info][gc          ] Transition from: idle to: normal
+[28.066s][info][gc,ergo     ] Free: 2818M, Max: 1024K regular, 2818M humongous, Frag: 0% external, 0% internal; Reserve: 149M, Max: 1024K
+[28.068s][info][gc,ergo     ] Start GC cycle (GLOBAL)
+Start collect
+[28.116s][info][gc,start    ] GC(0) Concurrent reset
+ANALYSIS START
+[S 0] Thread 22 starting
+[S 0] [22] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff64000b20
+[S 0] [22] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff64000b20
+[28.203s][info][gc,task     ] GC(0) Using 2 of 4 workers for concurrent reset
+[28.209s][info][gc,ergo     ] GC(0) Pacer for Reset. Non-Taxable: 2976M
+[28.274s][info][gc          ] GC(0) Concurrent reset 154.834ms
+[28.331s][info][gc,start    ] GC(0) Pause Init Mark (GLOBAL)
+[S 0] Detected possible stall due to fake leaves (1 current)
+[S 0]  [0/6] INVALID (202) @ 0x7fffe2455ad1
+[S 0] Blacklisting from future fake leaves: [0] INVALID @ 0x7fffe2455ad1 | arg0 0x7fffd807f258 arg1 0x80
+[S 0] Thread 23 starting
+[S 0] [23] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff68000b20
+[S 0] [23] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff68000b20
+[S 0] Thread 24 starting
+[S 0] [24] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff5c000b20
+[S 0] [24] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff5c000b20
+[28.525s][info][gc,task     ] GC(0) Using 4 of 4 workers for init marking
+[28.574s][info][gc,ref      ] GC(0) Clearing All SoftReferences
+[28.609s][info][gc,ergo     ] GC(0) Pacer for Mark. Expected Live: 297M, Free: 2818M, Non-Taxable: 281M, Alloc Tax Rate: 0.1x
+[28.618s][info][gc          ] GC(0) Pause Init Mark (GLOBAL) 284.349ms
+[28.647s][info][gc,start    ] GC(0) Concurrent marking roots
+[28.649s][info][gc,task     ] GC(0) Using 2 of 4 workers for concurrent marking roots
+[S 0] Detected possible stall due to fake leaves (1 current)
+[S 0]  [0/8] INVALID (202) @ 0x7fffe2be9637
+[S 0] Blacklisting from future fake leaves: [0] INVALID @ 0x7fffe2be9637 | arg0 0x7fffa0000ce4 arg1 0x81
+[S 0] Detected possible stall due to fake leaves (1 current)
+[S 0]  [0/6] INVALID (202) @ 0x7fffe2458ba2
+[S 0] Blacklisting from future fake leaves: [0] INVALID @ 0x7fffe2458ba2 | arg0 0x7fffd80c1a10 arg1 0x81
+[29.094s][info][gc          ] GC(0) Concurrent marking roots 446.603ms
+[29.100s][info][gc,start    ] GC(0) Concurrent marking (GLOBAL)
+[29.102s][info][gc,task     ] GC(0) Using 2 of 4 workers for concurrent marking
+[S 0] [8] Post-patching SYS_sched_getaffinity size 128 cpuset 0x7fffc43fe850
+[29.580s][info][gc          ] GC(0) Concurrent marking (GLOBAL) 479.892ms
+[29.594s][info][gc,start    ] GC(0) Pause Final Mark (GLOBAL)
+[29.596s][info][gc,task     ] GC(0) Using 4 of 4 workers for final marking
+[S 0] Detected possible stall due to fake leaves (1 current)
+[S 0]  [0/4] INVALID (202) @ 0x7fffe24587c4
+[S 0] Blacklisting from future fake leaves: [0] INVALID @ 0x7fffe24587c4 | arg0 0x7fffd80c1a10 arg1 0x189
+[29.905s][info][gc,ergo     ] GC(0) kiri baazi 1048576 
+[29.910s][info][gc,ergo     ] GC(0) Adaptive CSet Selection. Target Free: 421M, Actual Free: 2967M, Max CSet: 124M, Min Garbage: 0B
+[29.937s][info][gc,ergo     ] GC(0) Collectable Garbage: 8065K (100%), Immediate: 0B (0%), CSet: 8065K (100%)
+[29.976s][info][gc,ergo     ] GC(0) Pacer for Evacuation. Used CSet: 9216K, Free: 2818M, Non-Taxable: 281M, Alloc Tax Rate: 1.1x
+[29.978s][info][gc          ] GC(0) Pause Final Mark (GLOBAL) 383.170ms
+[29.989s][info][gc,start    ] GC(0) Concurrent thread roots
+[30.002s][info][gc,task     ] GC(0) Using 2 of 4 workers for Concurrent thread roots
+[30.120s][info][gc          ] GC(0) Concurrent thread roots 130.632ms
+[30.122s][info][gc,start    ] GC(0) Concurrent weak references
+[30.124s][info][gc,task     ] GC(0) Using 2 of 4 workers for concurrent weak references
+[30.214s][info][gc,ref      ] GC(0) Encountered references: Soft: 56, Weak: 204, Final: 2, Phantom: 162
+[30.215s][info][gc,ref      ] GC(0) Discovered  references: Soft: 52, Weak: 181, Final: 2, Phantom: 114
+[30.216s][info][gc,ref      ] GC(0) Enqueued    references: Soft: 25, Weak: 70, Final: 0, Phantom: 65
+[30.225s][info][gc          ] GC(0) Concurrent weak references 102.249ms
+[30.246s][info][gc,start    ] GC(0) Concurrent weak roots
+[30.265s][info][gc,task     ] GC(0) Using 2 of 4 workers for concurrent weak root
+[S 0] [8] Post-patching SYS_sched_getaffinity size 128 cpuset 0x7fffc43fe850
+[30.616s][info][gc          ] GC(0) Concurrent weak roots 369.281ms
+[30.619s][info][gc,start    ] GC(0) Concurrent cleanup
+[S 0] Detected possible stall due to fake leaves (1 current)
+[S 0]  [0/8] INVALID (202) @ 0x7fffe245693c
+[S 0] Blacklisting from future fake leaves: [0] INVALID @ 0x7fffe245693c | arg0 0x7fffd807f258 arg1 0x81
+[30.869s][info][gc          ] GC(0) Concurrent cleanup 9M->9M(188M) 241.237ms
+[30.963s][info][gc,ergo     ] GC(0) Free: 2818M, Max: 1024K regular, 2818M humongous, Frag: 0% external, 0% internal; Reserve: 148M, Max: 1024K
+[30.967s][info][gc,start    ] GC(0) Concurrent strong roots
+[30.975s][info][gc,task     ] GC(0) Using 2 of 4 workers for concurrent strong root
+[S 0] Detected possible stall due to fake leaves (2 current)
+[S 0]  [0/17] INVALID (202) @ 0x7fffe2455fb7
+[S 0]  [0/15] INVALID (0) @ 0x7fffe2bde182
+[S 0] Detected possible stall due to fake leaves (1 current)
+[S 0]  [0/15] INVALID (0) @ 0x7fffe2bde182
+[S 0] Blacklisting from future fake leaves: [0] INVALID @ 0x7fffe2bde182 | arg0 0xc arg1 0x7fff7c06f350
+[31.895s][info][gc          ] GC(0) Concurrent strong roots 927.309ms
+[31.899s][info][gc,start    ] GC(0) Concurrent evacuation
+[31.901s][info][gc,task     ] GC(0) Using 2 of 4 workers for concurrent evacuation
+[32.085s][info][gc          ] GC(0) Concurrent evacuation 186.618ms
+[32.094s][info][gc,start    ] GC(0) Pause Init Update Refs
+[32.118s][info][gc,ergo     ] GC(0) Pacer for Update Refs. Used: 12034K, Free: 2817M, Non-Taxable: 281M, Alloc Tax Rate: 1.1x
+[32.119s][info][gc          ] GC(0) Pause Init Update Refs 25.135ms
+[32.123s][info][gc,start    ] GC(0) Concurrent update references
+[32.125s][info][gc,task     ] GC(0) Using 2 of 4 workers for concurrent reference update
+[32.442s][info][gc          ] GC(0) Concurrent update references 318.359ms
+[32.444s][info][gc,start    ] GC(0) Concurrent update thread roots
+[S 0] [8] Post-patching SYS_sched_getaffinity size 128 cpuset 0x7fffc43fe850
+[32.468s][info][gc          ] GC(0) Concurrent update thread roots 23.090ms
+[32.474s][info][gc,start    ] GC(0) Pause Final Update Refs
+[32.476s][info][gc,task     ] GC(0) Using 4 of 4 workers for final reference update
+[32.513s][info][gc          ] GC(0) Pause Final Update Refs 39.782ms
+[32.518s][info][gc,start    ] GC(0) Concurrent cleanup
+[32.536s][info][gc          ] GC(0) Concurrent cleanup 11M->2M(189M) 17.972ms
+[32.557s][info][gc,ergo     ] GLOBAL generation used: 2818K, used regions: 189M, soft capacity: 2976M, max capacity: 2976 M, available: 2824 M
+[32.560s][info][gc,ergo     ] Free: 2824M, Max: 1024K regular, 2815M humongous, Frag: 1% external, 0% internal; Reserve: 149M, Max: 1024K
+[32.577s][info][gc,stats    ] 
+[32.583s][info][gc,stats    ] All times are wall-clock times, except per-root-class counters, that are sum over
+[32.585s][info][gc,stats    ] all workers. Dividing the <total> over the root stage time estimates parallelism.
+[32.587s][info][gc,stats    ] 
+[32.598s][info][gc,stats    ] Concurrent Reset                 182921 us
+[32.600s][info][gc,stats    ] Pause Init Mark (G)              358610 us
+[32.600s][info][gc,stats    ] Pause Init Mark (N)              292203 us
+[32.600s][info][gc,stats    ]   Update Region States             9583 us
+[32.609s][info][gc,stats    ] Concurrent Mark Roots            446824 us, parallelism: 0.93x
+[32.611s][info][gc,stats    ]   CMR: <total>                   417209 us
+[32.615s][info][gc,stats    ]   CMR: Thread Roots              287910 us, workers (us): 162145, 125765, ---, ---, 
+[32.616s][info][gc,stats    ]   CMR: Code Cache Roots           64297 us, workers (us): 29614, 34683, ---, ---, 
+[32.617s][info][gc,stats    ]   CMR: VM Strong Roots            30790 us, workers (us): 24968, 5823, ---, ---, 
+[32.617s][info][gc,stats    ]   CMR: CLDG Roots                 34212 us, workers (us): ---, 34212, ---, ---, 
+[32.620s][info][gc,stats    ] Concurrent Marking               480051 us
+[32.620s][info][gc,stats    ] Pause Final Mark (G)             401038 us
+[32.620s][info][gc,stats    ] Pause Final Mark (N)             385432 us
+[32.620s][info][gc,stats    ]   Finish Mark                    256114 us
+[32.620s][info][gc,stats    ]   Update Region States            21590 us
+[32.620s][info][gc,stats    ]   Choose Collection Set           53251 us
+[32.620s][info][gc,stats    ]   Rebuild Free Set                22923 us
+[32.621s][info][gc,stats    ] Concurrent Thread Roots          130852 us, parallelism: 1.45x
+[32.621s][info][gc,stats    ]   CTR: <total>                   189740 us
+[32.622s][info][gc,stats    ]   CTR: Thread Roots              189740 us, workers (us): 99039, 90701, ---, ---, 
+[32.622s][info][gc,stats    ] Concurrent Weak References       118911 us, parallelism: 1.03x
+[32.622s][info][gc,stats    ]   CWRF: <total>                  122822 us
+[32.622s][info][gc,stats    ]   CWRF: Weak References          122822 us, workers (us): 63966, 58856, ---, ---, 
+[32.622s][info][gc,stats    ] Concurrent Weak Roots            369520 us
+[32.623s][info][gc,stats    ]   Roots                          303821 us, parallelism: 1.37x
+[32.623s][info][gc,stats    ]     CWR: <total>                 417690 us
+[32.623s][info][gc,stats    ]     CWR: VM Weak Roots           417690 us, workers (us): 205223, 212467, ---, ---, 
+[32.624s][info][gc,stats    ]   Rendezvous                      20851 us
+[32.624s][info][gc,stats    ] Concurrent Cleanup               257108 us
+[32.624s][info][gc,stats    ] Concurrent Strong Roots          927570 us, parallelism: 1.82x
+[32.624s][info][gc,stats    ]   CSR: <total>                  1688738 us
+[32.624s][info][gc,stats    ]   CSR: Code Cache Roots          784370 us, workers (us): 783730, 640, ---, ---, 
+[32.624s][info][gc,stats    ]   CSR: VM Strong Roots            93807 us, workers (us): 54830, 38977, ---, ---, 
+[32.624s][info][gc,stats    ]   CSR: CLDG Roots                810562 us, workers (us): ---, 810562, ---, ---, 
+[32.624s][info][gc,stats    ] Concurrent Evacuation            186795 us
+[32.624s][info][gc,stats    ] Pause Init  Update Refs (G)       33648 us
+[32.624s][info][gc,stats    ] Pause Init  Update Refs (N)       25265 us
+[32.625s][info][gc,stats    ]   Manage GCLABs                   13356 us
+[32.625s][info][gc,stats    ] Concurrent Update Refs           318511 us
+[32.625s][info][gc,stats    ] Concurrent Update Thread Roots    23358 us
+[32.625s][info][gc,stats    ] Pause Final Update Refs (G)       46282 us
+[32.625s][info][gc,stats    ] Pause Final Update Refs (N)       39923 us
+[32.625s][info][gc,stats    ]   Update Region States             7711 us
+[32.625s][info][gc,stats    ]   Trash Collection Set            10997 us
+[32.625s][info][gc,stats    ]   Rebuild Free Set                10506 us
+[32.625s][info][gc,stats    ] Concurrent Cleanup                18119 us
+[32.626s][info][gc,stats    ] 
+[32.626s][info][gc,stats    ] Allocation pacing accrued:
+[32.627s][info][gc,stats    ]       0 of 30355 ms (  0.0%): <total>
+[32.628s][info][gc,stats    ]       0 of 30355 ms (  0.0%): <average total>
+[32.628s][info][gc,stats    ] 
+[32.634s][info][gc,metaspace] Metaspace: 7321K(7488K)->7324K(7488K) NonClass: 6692K(6784K)->6694K(6784K) Class: 629K(704K)->629K(704K)
+[32.635s][info][gc,ergo     ] Pacer for Idle. Initial: 60948K, Alloc Tax Rate: 1.0x
+[32.640s][info][gc,start    ] Concurrent uncommit
+ANALYSIS END
+[S 0] [3] Post-patching SYS_sched_getaffinity size 128 cpuset 0x7fffe06fcd70
+[32.707s][info][gc          ] Concurrent uncommit 3M->3M(7M) 67.601ms
+[32.728s][info][gc          ] Transition from: normal to: idle
+[S 0] Thread 25 starting
+[S 0] [25] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff58000b20
+[S 0] [25] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff58000b20
+[S 0] Thread 26 starting
+[S 0] [26] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff50000b20
+[S 0] [26] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff50000b20
+[S 0] Thread 27 starting
+[S 0] [27] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff54000b20
+[S 0] [27] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff54000b20
+[S 0] Detected possible stall due to fake leaves (1 current)
+[S 0]  [0/6] INVALID (1) @ 0x7fffe2bde255
+[S 0] Blacklisting from future fake leaves: [0] INVALID @ 0x7fffe2bde255 | arg0 0x1 arg1 0x7fffd8096660
+[S 0] Thread 28 starting
+[S 0] [28] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff48000b20
+[S 0] [28] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff48000b20
+[S 0] Thread 29 starting
+[S 0] [29] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff4c000b20
+[S 0] [29] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff4c000b20
+[S 0] Thread 30 starting
+[S 0] [30] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff40000b20
+[S 0] [30] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff40000b20
+[S 0] Thread 31 starting
+[S 0] [31] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff3c000b20
+[S 0] [31] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff3c000b20
+[S 0] Thread 32 starting
+[S 0] [32] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff34000b20
+[S 0] [32] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff34000b20
+[S 0] [8] Post-patching SYS_sched_getaffinity size 128 cpuset 0x7fffc43fe850
+[S 0] [8] Post-patching SYS_sched_getaffinity size 128 cpuset 0x7fffc43fe850
+[S 0] Thread 33 starting
+[S 0] [33] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff38000b20
+[S 0] [33] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff38000b20
+[S 0] Thread 33 finished
+[S 0] Thread 34 starting
+[S 0] [34] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff38002470
+[S 0] [34] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff38002470
+[S 0] Thread 35 starting
+[S 0] [35] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff2c000b20
+[S 0] [35] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff2c000b20
+[S 0] [8] Post-patching SYS_sched_getaffinity size 128 cpuset 0x7fffc43fe850
+[S 0] [8] Post-patching SYS_sched_getaffinity size 128 cpuset 0x7fffc43fe850
+[S 0] [8] Post-patching SYS_sched_getaffinity size 128 cpuset 0x7fffc43fe850
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[S 0] Thread 35 finished
+[S 0] Thread 34 finished
+[S 0] Thread 36 starting
+[S 0] [36] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff3816b1f0
+[S 0] [36] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff3816b1f0
+[S 0] Thread 37 starting
+[S 0] [37] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff2c338440
+[S 0] [37] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff2c000e40
+4 query batches completed
+8 query batches completed
+[S 0] Thread 37 finished
+[S 0] Thread 36 finished
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+12 query batches completed
+[59.233s][info][gc          ] Trigger (YOUNG): Learning 1 of 5. Free (694M) is below initial threshold (694M)
+[59.236s][info][gc          ] Transition from: idle to: normal
+[59.240s][info][gc,ergo     ] Free: 2529M, Max: 1024K regular, 2529M humongous, Frag: 0% external, 0% internal; Reserve: 149M, Max: 1024K
+[59.236s][info][gc          ] Heuristics request for young collection accepted
+[59.243s][info][gc,ergo     ] Start GC cycle (YOUNG)
+Start collect
+[59.247s][info][gc,start    ] GC(1) Concurrent reset
+[59.247s][info][gc,task     ] GC(1) Using 2 of 4 workers for concurrent reset
+[59.249s][info][gc,ergo     ] GC(1) Pacer for Reset. Non-Taxable: 2976M
+16 query batches completed
+ANALYSIS START
+[S 0] Detected possible stall due to fake leaves (1 current)
+[S 0]  [0/7] INVALID (35) @ 0x7fffe2bb279e
+[S 0] Blacklisting from future fake leaves: [0] INVALID @ 0x7fffe2bb279e | arg0 0x7fffc5a99df0 arg1 0x0
+[S 0] Detected possible stall due to fake leaves (2 current)
+[S 0]  [0/14] INVALID (202) @ 0x7fffe2455fb7
+[S 0]  [0/25] INVALID (8) @ 0x7fffe2bde2e5
+[S 0] Detected possible stall due to fake leaves (1 current)
+[S 0]  [0/25] INVALID (8) @ 0x7fffe2bde2e5
+[S 0] Blacklisting from future fake leaves: [0] INVALID @ 0x7fffe2bde2e5 | arg0 0x15 arg1 0x2153b9
+[59.993s][info][gc          ] GC(1) Concurrent reset 746.215ms
+[59.997s][info][gc,start    ] GC(1) Pause Init Mark (YOUNG)
+[59.997s][info][gc,task     ] GC(1) Using 4 of 4 workers for init marking
+[60.025s][info][gc,ergo     ] GC(1) Pacer for Mark. Expected Live: 1150K, Free: 2513M, Non-Taxable: 251M, Alloc Tax Rate: 0.0x
+[60.026s][info][gc          ] GC(1) Pause Init Mark (YOUNG) 28.525ms
+[64.475s][info][gc,start    ] GC(1) Concurrent remembered set scanning
+[S 0] Detected possible stall due to fake leaves (2 current)
+[S 0]  [0/8] INVALID (202) @ 0x7fffe2459298
+[S 0]  [0/14] INVALID (202) @ 0x7fffe2455fb7
+[S 0] Detected possible stall due to fake leaves (2 current)
+[S 0]  [0/14] INVALID (202) @ 0x7fffe2455fb7
+[S 0]  [0/15] INVALID (202) @ 0x7fffe2455fb7
+[S 0] Detected possible stall due to fake leaves (1 current)
+[S 0]  [0/15] INVALID (202) @ 0x7fffe2455fb7
+[S 0] Blacklisting from future fake leaves: [0] INVALID @ 0x7fffe2455fb7 | arg0 0x7fffd8080178 arg1 0x80
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[125.945s][info][gc          ] GC(1) Concurrent remembered set scanning 57156.407ms
+[130.249s][info][gc,start    ] GC(1) Concurrent marking roots
+[134.615s][info][gc,task     ] GC(1) Using 2 of 4 workers for concurrent marking roots
+[259.879s][info][gc          ] GC(1) Concurrent marking roots 129629.959ms
+[259.884s][info][gc,start    ] GC(1) Concurrent marking (YOUNG)
+[259.889s][info][gc,task     ] GC(1) Using 2 of 4 workers for concurrent marking
+[S 0] Detected possible stall due to fake leaves (1 current)
+[S 0]  [0/8] INVALID (202) @ 0x7fffe2459298
+[S 0] Blacklisting from future fake leaves: [0] INVALID @ 0x7fffe2459298 | arg0 0x7fffd807f208 arg1 0x81
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[S 0] [8] Post-patching SYS_sched_getaffinity size 128 cpuset 0x7fffc43fe850
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[1353.551s][info][gc          ] GC(1) Concurrent marking (YOUNG) 1093668.761ms
+[1357.853s][info][gc,start    ] GC(1) Pause Final Mark (YOUNG)
+[1357.854s][info][gc,task     ] GC(1) Using 4 of 4 workers for final marking
+[1357.909s][info][gc,ergo     ] GC(1) kiri baazi 1048576 
+[1357.912s][info][gc,ergo     ] GC(1) Adaptive CSet Selection. Target Free: 140M, Actual Free: 0B, Max CSet: 42325K, Min Garbage: 140M
+[1357.945s][info][gc,ergo     ] GC(1) Collectable Garbage: 310M (99%), Immediate: 0B (0%), CSet: 310M (99%)
+[1357.954s][info][gc,ergo     ] GC(1) Pacer for Evacuation. Used CSet: 312M, Free: 2497M, Non-Taxable: 249M, Alloc Tax Rate: 1.1x
+[1357.955s][info][gc          ] GC(1) Pause Final Mark (YOUNG) 101.339ms
+[1371.019s][info][gc,start    ] GC(1) Concurrent thread roots
+[1379.636s][info][gc,task     ] GC(1) Using 2 of 4 workers for Concurrent thread roots
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[S 0] Detected possible stall due to fake leaves (1 current)
+[S 0]  [0/27] INVALID (202) @ 0x7fffe24591fb
+[S 0] Blacklisting from future fake leaves: [0] INVALID @ 0x7fffe24591fb | arg0 0x7fff383a57b0 arg1 0x80
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[1458.037s][info][gc          ] GC(1) Concurrent thread roots 87018.243ms
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[1458.065s][info][gc,start    ] GC(1) Concurrent weak references
+[1462.411s][info][gc,task     ] GC(1) Using 2 of 4 workers for concurrent weak references
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[1583.114s][info][gc,ref      ] GC(1) Encountered references: Soft: 51, Weak: 272, Final: 122, Phantom: 118
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[1596.018s][info][gc,ref      ] GC(1) Discovered  references: Soft: 0, Weak: 149, Final: 96, Phantom: 66
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[1621.804s][info][gc,ref      ] GC(1) Enqueued    references: Soft: 0, Weak: 81, Final: 96, Phantom: 26
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[1703.478s][info][gc          ] GC(1) Concurrent weak references 245412.474ms
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[1716.379s][info][gc,start    ] GC(1) Concurrent weak roots
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[1733.580s][info][gc,task     ] GC(1) Using 2 of 4 workers for concurrent weak root
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[S 0] [8] Post-patching SYS_sched_getaffinity size 128 cpuset 0x7fffc43fe850
+C: Tool (or Pin) caused signal 11 at PC 0x7fffe692c4cd
+C: Location may be in in-lined analysis code, try re-running with '-inline 0' to debug it[H] Child 2149 done
+[H] Starting zsim, built ‫جۆمعه آخشامی ۱۴ اوْکتوْبر ۲۱، ساعات ۱۲:۵۷:۱۲ (+0330)‬ (rev no git repo)
+[H] Creating global segment, 1024 MBs
+[H] Global segment shmid = 98341
+[H] Deadlock detection ON
+[S 0] Started instance
+[S 0] Started RR scheduler, quantum=10000 phases
+prefix: sys.caches.l3.
+****Prefetcher Stream
+prefix: sys.caches.l2.
+****Prefetcher Stream
+prefix: sys.caches.l1i.
+****Prefetcher Stream
+prefix: sys.caches.l1d.
+****Prefetcher Stream
+[S 0] Hierarchy: [ l1i-0 l1d-0 ] -> l2-0
+[S 0] Hierarchy: [ l1i-1 l1d-1 ] -> l2-1
+[S 0] Hierarchy: [ l1i-2 l1d-2 ] -> l2-2
+[S 0] Hierarchy: [ l1i-3 l1d-3 ] -> l2-3
+[S 0] Hierarchy: [ l1i-4 l1d-4 ] -> l2-4
+[S 0] Hierarchy: [ l1i-5 l1d-5 ] -> l2-5
+[S 0] Hierarchy: [ l1i-6 l1d-6 ] -> l2-6
+[S 0] Hierarchy: [ l1i-7 l1d-7 ] -> l2-7
+[S 0] Hierarchy: [ l2-0 l2-1 l2-2 l2-3 l2-4 l2-5 l2-6 l2-7 ] -> l3-0b0..l3-0b3
+[S 0] Initialized system
+[S 0] HDF5 backend: Opening traces.out.zsim.h5
+[S 0] HDF5 backend: Created table, 5256 bytes/record, 200 records/write
+[S 0] HDF5 backend: Opening traces.out.zsim-ev.h5
+[S 0] HDF5 backend: Created table, 5256 bytes/record, 25 records/write
+[S 0] HDF5 backend: Opening traces.out.zsim-cmp.h5
+[S 0] HDF5 backend: Created table, 2336 bytes/record, 1 records/write
+[S 0] Initialization complete
+[S 0] Started process, PID 8298
+[S 0] procMask: 0x0
+[S 0] [0] Adjusting clocks, domain 0, de-ffwd 0
+[S 0] vDSO info initialized
+[H] Attached to global heap
+[S 0] Started contention simulation thread 0
+[S 0] Started scheduler watchdog thread
+[S 0] Thread 0 starting
+[S 0] Thread 3 starting
+[S 0] [3] Post-patching SYS_sched_getaffinity size 128 cpuset 0x7fffe06feac0
+[S 0] [3] Post-patching SYS_sched_getaffinity size 512 cpuset 0x7fffd80157e0
+[S 0] [3] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fffd8084fb0
+[S 0] [3] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fffd8084fb0
+[S 0] [3] Post-patching SYS_sched_getaffinity size 128 cpuset 0x7fffe06fea70
+[2.077s][info][gc] Using Shenandoah
+[2.112s][info][gc] Heuristics ergonomically sets -XX:+ExplicitGCInvokesConcurrent
+[2.114s][info][gc] Heuristics ergonomically sets -XX:+ShenandoahImplicitGCInvokesConcurrent
+[2.115s][info][gc] Heuristics ergonomically sets -XX:+UseCondCardMark
+[S 0] Thread 4 starting
+[S 0] [4] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fffc0000b20
+[S 0] [4] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fffc0000b20
+[S 0] Thread 5 starting
+[S 0] [5] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fffb8000b20
+[S 0] [5] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fffb8000b20
+[2.287s][info][gc,ergo] Pacer for Idle. Initial: 60948K, Alloc Tax Rate: 1.0x
+[S 0] Thread 6 starting
+[S 0] [6] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fffbc000b20
+[S 0] [6] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fffbc000b20
+[S 0] Thread 7 starting
+[S 0] [7] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fffa8000b20
+[S 0] [7] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fffa8000b20
+[2.346s][info][gc,init] Version: 17-internal+0-adhoc.h4mid.shenandoah-master (release)
+[2.363s][info][gc,init] CPUs: 4 total, 8 available
+[2.375s][info][gc,init] Memory: 11907M
+[2.376s][info][gc,init] Large Page Support: Disabled
+[2.379s][info][gc,init] NUMA Support: Disabled
+[2.380s][info][gc,init] Compressed Oops: Enabled (Zero based)
+[2.381s][info][gc,init] Heap Min Capacity: 7M
+[2.382s][info][gc,init] Heap Initial Capacity: 187M
+[2.383s][info][gc,init] Heap Max Capacity: 2977M
+[2.383s][info][gc,init] Pre-touch: Disabled
+[2.384s][info][gc,init] Mode: Generational
+[2.384s][info][gc,init] Heuristics: Adaptive
+[2.385s][info][gc,init] Heap Region Count: 2976
+[2.385s][info][gc,init] Heap Region Size: 1M
+[2.386s][info][gc,init] TLAB Size Max: 1M
+[2.386s][info][gc,init] Humongous Object Threshold: 1M
+[2.387s][info][gc,init] Parallel Workers: 4
+[2.387s][info][gc,init] Concurrent Workers: 2
+[2.421s][info][gc,metaspace] CDS archive(s) not mapped
+[2.423s][info][gc,metaspace] Compressed class space mapped at: 0x0000000800000000-0x0000000840000000, reserved size: 1073741824
+[2.424s][info][gc,metaspace] Narrow klass base: 0x0000000800000000, Narrow klass shift: 0, Narrow klass range: 0x40000000
+[S 0] Thread 8 starting
+[S 0] [8] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fffa0000b20
+[S 0] [8] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fffa0000b20
+[S 0] [3] Post-patching SYS_sched_getaffinity size 128 cpuset 0x7fffe06fcef0
+[S 0] Thread 9 starting
+[S 0] [9] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff98000b20
+[S 0] [9] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff98000b20
+[S 0] Thread 10 starting
+[S 0] [10] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff9c000b20
+[S 0] [10] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff9c000b20
+[S 0] Thread 11 starting
+[S 0] [11] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff90000b20
+[S 0] [11] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff90000b20
+[S 0] Thread 12 starting
+[S 0] [12] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff94000b20
+[S 0] [12] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff94000b20
+[S 0] Thread 13 starting
+[S 0] [13] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff88000b20
+[S 0] [13] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff88000b20
+[S 0] Thread 14 starting
+[S 0] [14] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff84000b20
+[S 0] [14] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff84000b20
+[S 0] Thread 15 starting
+[S 0] [15] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff7c000b20
+[S 0] [15] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff7c000b20
+[S 0] Thread 16 starting
+[S 0] [16] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff80000b20
+[S 0] [16] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff80000b20
+[S 0] Thread 17 starting
+[S 0] [17] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff74000b20
+[S 0] [17] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff74000b20
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[S 0] Thread 18 starting
+[S 0] [18] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff78000b20
+[S 0] [18] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff78000b20
+[S 0] Thread 19 starting
+[S 0] [19] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff6c000b20
+[S 0] [19] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff6c000b20
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[S 0] Thread 19 finished
+[S 0] [8] Post-patching SYS_sched_getaffinity size 128 cpuset 0x7fffc43fe850
+[S 0] [8] Post-patching SYS_sched_getaffinity size 128 cpuset 0x7fffc43fe850
+[S 0] Thread 18 finished
+[S 0] Thread 20 starting
+[S 0] [20] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff780537f0
+[S 0] [20] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff780537f0
+[S 0] Thread 21 starting
+[S 0] [21] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff6c000b20
+[S 0] [21] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff6c000b20
+[S 0] Thread 22 starting
+[S 0] [22] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff64000b20
+[S 0] [22] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff64000b20
+[S 0] Thread 23 starting
+[S 0] [23] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff68000b20
+[S 0] [23] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff68000b20
+Salam
+[S 0] Thread 21 finished
+[S 0] Thread 20 finished
+[S 0] [3] Post-patching SYS_sched_getaffinity size 128 cpuset 0x7fffe06fdf60
+Using scaled threading model. 8 processors detected, 8 threads used to drive the workload, in a possible range of [1,64]
+[S 0] [8] Post-patching SYS_sched_getaffinity size 128 cpuset 0x7fffc43fe850
+Trgiggering yeh
+[27.957s][info][gc          ] Trigger: Explicit GC request (System.gc())
+[27.967s][info][gc          ] Transition from: idle to: normal
+[27.990s][info][gc,ergo     ] Free: 2818M, Max: 1024K regular, 2818M humongous, Frag: 0% external, 0% internal; Reserve: 149M, Max: 1024K
+[27.993s][info][gc,ergo     ] Start GC cycle (GLOBAL)
+Start collect
+[28.030s][info][gc,start    ] GC(0) Concurrent reset
+ANALYSIS START
+[S 0] Thread 24 starting
+[S 0] [24] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff7803a760
+[S 0] [24] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff78083bb0
+[28.049s][info][gc,task     ] GC(0) Using 2 of 4 workers for concurrent reset
+[28.066s][info][gc,ergo     ] GC(0) Pacer for Reset. Non-Taxable: 2976M
+[28.118s][info][gc          ] GC(0) Concurrent reset 87.207ms
+[28.148s][info][gc,start    ] GC(0) Pause Init Mark (GLOBAL)
+[S 0] Thread 25 starting
+[S 0] [25] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff6c0c2f40
+[S 0] [25] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff6c0c2f40
+[S 0] Thread 26 starting
+[S 0] [26] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff5c000b20
+[S 0] [26] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff5c000b20
+[28.169s][info][gc,task     ] GC(0) Using 4 of 4 workers for init marking
+[S 0] Detected possible stall due to fake leaves (1 current)
+[S 0]  [0/6] INVALID (202) @ 0x7fffe2456ad1
+[S 0] Blacklisting from future fake leaves: [0] INVALID @ 0x7fffe2456ad1 | arg0 0x7fffd807f25c arg1 0x80
+[28.364s][info][gc,ref      ] GC(0) Clearing All SoftReferences
+[28.380s][info][gc,ergo     ] GC(0) Pacer for Mark. Expected Live: 297M, Free: 2818M, Non-Taxable: 281M, Alloc Tax Rate: 0.1x
+[28.387s][info][gc          ] GC(0) Pause Init Mark (GLOBAL) 235.350ms
+[28.402s][info][gc,start    ] GC(0) Concurrent marking roots
+[28.405s][info][gc,task     ] GC(0) Using 2 of 4 workers for concurrent marking roots
+[S 0] Detected possible stall due to fake leaves (2 current)
+[S 0]  [0/8] INVALID (202) @ 0x7fffe2bea637
+[S 0]  [0/6] INVALID (202) @ 0x7fffe2459ba2
+[28.629s][info][gc          ] GC(0) Concurrent marking roots 227.623ms
+[28.632s][info][gc,start    ] GC(0) Concurrent marking (GLOBAL)
+[28.633s][info][gc,task     ] GC(0) Using 2 of 4 workers for concurrent marking
+[S 0] Detected possible stall due to fake leaves (1 current)
+[S 0]  [0/6] INVALID (202) @ 0x7fffe2459ba2
+[S 0] Blacklisting from future fake leaves: [0] INVALID @ 0x7fffe2459ba2 | arg0 0x7fffd80c1a10 arg1 0x81
+[S 0] Detected possible stall due to fake leaves (1 current)
+[S 0]  [0/4] INVALID (202) @ 0x7fffe245a1fb
+[S 0] Blacklisting from future fake leaves: [0] INVALID @ 0x7fffe245a1fb | arg0 0x7fffc64a42b8 arg1 0x80
+[S 0] [8] Post-patching SYS_sched_getaffinity size 128 cpuset 0x7fffc43fe850
+[29.351s][info][gc          ] GC(0) Concurrent marking (GLOBAL) 718.964ms
+[29.371s][info][gc,start    ] GC(0) Pause Final Mark (GLOBAL)
+[29.373s][info][gc,task     ] GC(0) Using 4 of 4 workers for final marking
+[S 0] Detected possible stall due to fake leaves (1 current)
+[S 0]  [0/12] INVALID (186) @ 0x7fffe2bea637
+[S 0] Blacklisting from future fake leaves: [0] INVALID @ 0x7fffe2bea637 | arg0 0x0 arg1 0x7fffd8017128
+[S 0] Detected possible stall due to fake leaves (1 current)
+[S 0]  [0/4] INVALID (202) @ 0x7fffe24597c4
+[S 0] Blacklisting from future fake leaves: [0] INVALID @ 0x7fffe24597c4 | arg0 0x7fffd80c1a10 arg1 0x189
+[29.775s][info][gc,ergo     ] GC(0) kiri baazi 1048576 
+[29.778s][info][gc,ergo     ] GC(0) Adaptive CSet Selection. Target Free: 421M, Actual Free: 2967M, Max CSet: 124M, Min Garbage: 0B
+[29.798s][info][gc,ergo     ] GC(0) Collectable Garbage: 8065K (100%), Immediate: 0B (0%), CSet: 8065K (100%)
+[29.825s][info][gc,ergo     ] GC(0) Pacer for Evacuation. Used CSet: 9216K, Free: 2818M, Non-Taxable: 281M, Alloc Tax Rate: 1.1x
+[29.826s][info][gc          ] GC(0) Pause Final Mark (GLOBAL) 454.885ms
+[29.832s][info][gc,start    ] GC(0) Concurrent thread roots
+[29.841s][info][gc,task     ] GC(0) Using 2 of 4 workers for Concurrent thread roots
+[29.901s][info][gc          ] GC(0) Concurrent thread roots 68.647ms
+[29.903s][info][gc,start    ] GC(0) Concurrent weak references
+[29.904s][info][gc,task     ] GC(0) Using 2 of 4 workers for concurrent weak references
+[29.961s][info][gc,ref      ] GC(0) Encountered references: Soft: 56, Weak: 204, Final: 2, Phantom: 124
+[29.962s][info][gc,ref      ] GC(0) Discovered  references: Soft: 53, Weak: 181, Final: 2, Phantom: 112
+[29.962s][info][gc,ref      ] GC(0) Enqueued    references: Soft: 25, Weak: 70, Final: 0, Phantom: 65
+[29.971s][info][gc          ] GC(0) Concurrent weak references 68.608ms
+[29.984s][info][gc,start    ] GC(0) Concurrent weak roots
+[29.990s][info][gc,task     ] GC(0) Using 2 of 4 workers for concurrent weak root
+[S 0] [8] Post-patching SYS_sched_getaffinity size 128 cpuset 0x7fffc43fe850
+[30.266s][info][gc          ] GC(0) Concurrent weak roots 281.834ms
+[30.270s][info][gc,start    ] GC(0) Concurrent cleanup
+[S 0] Detected possible stall due to fake leaves (1 current)
+[S 0]  [0/8] INVALID (202) @ 0x7fffe245793c
+[S 0] Blacklisting from future fake leaves: [0] INVALID @ 0x7fffe245793c | arg0 0x7fffd807f25c arg1 0x81
+[30.598s][info][gc          ] GC(0) Concurrent cleanup 9M->9M(188M) 326.437ms
+[30.649s][info][gc,ergo     ] GC(0) Free: 2818M, Max: 1024K regular, 2818M humongous, Frag: 0% external, 0% internal; Reserve: 148M, Max: 1024K
+[30.652s][info][gc,start    ] GC(0) Concurrent strong roots
+[30.653s][info][gc,task     ] GC(0) Using 2 of 4 workers for concurrent strong root
+[S 0] Detected possible stall due to fake leaves (1 current)
+[S 0]  [0/15] INVALID (257) @ 0x7fffe2bdede7
+[S 0] Blacklisting from future fake leaves: [0] INVALID @ 0x7fffe2bdede7 | arg0 0xffffff9c arg1 0x7fffa436b9d0
+[S 0] Detected possible stall due to fake leaves (1 current)
+[S 0]  [0/17] INVALID (202) @ 0x7fffe2456fb7
+[S 0] Blacklisting from future fake leaves: [0] INVALID @ 0x7fffe2456fb7 | arg0 0x7fffd828177c arg1 0x80
+[31.318s][info][gc          ] GC(0) Concurrent strong roots 666.212ms
+[31.321s][info][gc,start    ] GC(0) Concurrent evacuation
+[31.322s][info][gc,task     ] GC(0) Using 2 of 4 workers for concurrent evacuation
+[31.451s][info][gc          ] GC(0) Concurrent evacuation 130.652ms
+[31.460s][info][gc,start    ] GC(0) Pause Init Update Refs
+[31.478s][info][gc,ergo     ] GC(0) Pacer for Update Refs. Used: 12034K, Free: 2817M, Non-Taxable: 281M, Alloc Tax Rate: 1.1x
+[31.479s][info][gc          ] GC(0) Pause Init Update Refs 19.608ms
+[31.483s][info][gc,start    ] GC(0) Concurrent update references
+[31.484s][info][gc,task     ] GC(0) Using 2 of 4 workers for concurrent reference update
+[31.720s][info][gc          ] GC(0) Concurrent update references 237.147ms
+[31.723s][info][gc,start    ] GC(0) Concurrent update thread roots
+[S 0] [8] Post-patching SYS_sched_getaffinity size 128 cpuset 0x7fffc43fe850
+[31.749s][info][gc          ] GC(0) Concurrent update thread roots 26.201ms
+[31.756s][info][gc,start    ] GC(0) Pause Final Update Refs
+[31.758s][info][gc,task     ] GC(0) Using 4 of 4 workers for final reference update
+[31.790s][info][gc          ] GC(0) Pause Final Update Refs 34.281ms
+[31.794s][info][gc,start    ] GC(0) Concurrent cleanup
+[31.807s][info][gc          ] GC(0) Concurrent cleanup 11M->2M(189M) 13.111ms
+[31.830s][info][gc,ergo     ] GLOBAL generation used: 2818K, used regions: 189M, soft capacity: 2976M, max capacity: 2976 M, available: 2824 M
+[31.832s][info][gc,ergo     ] Free: 2824M, Max: 1024K regular, 2815M humongous, Frag: 1% external, 0% internal; Reserve: 149M, Max: 1024K
+[31.848s][info][gc,stats    ] 
+[31.853s][info][gc,stats    ] All times are wall-clock times, except per-root-class counters, that are sum over
+[31.856s][info][gc,stats    ] all workers. Dividing the <total> over the root stage time estimates parallelism.
+[31.856s][info][gc,stats    ] 
+[31.864s][info][gc,stats    ] Concurrent Reset                 104231 us
+[31.866s][info][gc,stats    ] Pause Init Mark (G)              273444 us
+[31.866s][info][gc,stats    ] Pause Init Mark (N)              240746 us
+[31.867s][info][gc,stats    ]   Update Region States             5979 us
+[31.867s][info][gc,stats    ] Concurrent Mark Roots            227855 us, parallelism: 1.30x
+[31.872s][info][gc,stats    ]   CMR: <total>                   295574 us
+[31.874s][info][gc,stats    ]   CMR: Thread Roots              233438 us, workers (us): 116489, 116949, ---, ---, 
+[31.874s][info][gc,stats    ]   CMR: Code Cache Roots           23553 us, workers (us): 22673, 881, ---, ---, 
+[31.874s][info][gc,stats    ]   CMR: VM Strong Roots            16886 us, workers (us): 7001, 9885, ---, ---, 
+[31.875s][info][gc,stats    ]   CMR: CLDG Roots                 21697 us, workers (us): ---, 21697, ---, ---, 
+[31.875s][info][gc,stats    ] Concurrent Marking               719101 us
+[31.875s][info][gc,stats    ] Pause Final Mark (G)             476453 us
+[31.875s][info][gc,stats    ] Pause Final Mark (N)             454984 us
+[31.875s][info][gc,stats    ]   Finish Mark                    178834 us
+[31.875s][info][gc,stats    ]   Update Region States           201965 us
+[31.875s][info][gc,stats    ]   Choose Collection Set           36580 us
+[31.875s][info][gc,stats    ]   Rebuild Free Set                15724 us
+[31.875s][info][gc,stats    ] Concurrent Thread Roots           68798 us, parallelism: 1.54x
+[31.875s][info][gc,stats    ]   CTR: <total>                   105651 us
+[31.875s][info][gc,stats    ]   CTR: Thread Roots              105651 us, workers (us): 52717, 52934, ---, ---, 
+[31.875s][info][gc,stats    ] Concurrent Weak References        73281 us, parallelism: 1.00x
+[31.875s][info][gc,stats    ]   CWRF: <total>                   73384 us
+[31.875s][info][gc,stats    ]   CWRF: Weak References           73384 us, workers (us): 42046, 31338, ---, ---, 
+[31.876s][info][gc,stats    ] Concurrent Weak Roots            283414 us
+[31.876s][info][gc,stats    ]   Roots                          210929 us, parallelism: 1.04x
+[31.876s][info][gc,stats    ]     CWR: <total>                 220301 us
+[31.876s][info][gc,stats    ]     CWR: VM Weak Roots           220301 us, workers (us): 107305, 112996, ---, ---, 
+[31.876s][info][gc,stats    ]   Rendezvous                      60808 us
+[31.876s][info][gc,stats    ] Concurrent Cleanup               327808 us
+[31.876s][info][gc,stats    ] Concurrent Strong Roots          666372 us, parallelism: 1.20x
+[31.876s][info][gc,stats    ]   CSR: <total>                   797010 us
+[31.876s][info][gc,stats    ]   CSR: Code Cache Roots          107328 us, workers (us): 107089, 239, ---, ---, 
+[31.876s][info][gc,stats    ]   CSR: VM Strong Roots            85359 us, workers (us): 56920, 28439, ---, ---, 
+[31.876s][info][gc,stats    ]   CSR: CLDG Roots                604323 us, workers (us): ---, 604323, ---, ---, 
+[31.876s][info][gc,stats    ] Concurrent Evacuation            130784 us
+[31.876s][info][gc,stats    ] Pause Init  Update Refs (G)       28494 us
+[31.876s][info][gc,stats    ] Pause Init  Update Refs (N)       19722 us
+[31.876s][info][gc,stats    ]   Manage GCLABs                    9299 us
+[31.876s][info][gc,stats    ] Concurrent Update Refs           237283 us
+[31.876s][info][gc,stats    ] Concurrent Update Thread Roots    26317 us
+[31.876s][info][gc,stats    ] Pause Final Update Refs (G)       41265 us
+[31.876s][info][gc,stats    ] Pause Final Update Refs (N)       34405 us
+[31.876s][info][gc,stats    ]   Update Region States             5657 us
+[31.876s][info][gc,stats    ]   Trash Collection Set             9004 us
+[31.876s][info][gc,stats    ]   Rebuild Free Set                10849 us
+[31.876s][info][gc,stats    ] Concurrent Cleanup                13253 us
+[31.877s][info][gc,stats    ] 
+[31.877s][info][gc,stats    ] Allocation pacing accrued:
+[31.885s][info][gc,stats    ]       0 of 29592 ms (  0.0%): <total>
+[31.886s][info][gc,stats    ]       0 of 29592 ms (  0.0%): <average total>
+[31.886s][info][gc,stats    ] 
+[31.898s][info][gc,metaspace] Metaspace: 7328K(7488K)->7330K(7488K) NonClass: 6699K(6784K)->6701K(6784K) Class: 629K(704K)->629K(704K)
+[31.899s][info][gc,ergo     ] Pacer for Idle. Initial: 60948K, Alloc Tax Rate: 1.0x
+[31.907s][info][gc,start    ] Concurrent uncommit
+ANALYSIS END
+[S 0] [3] Post-patching SYS_sched_getaffinity size 128 cpuset 0x7fffe06fdd70
+[31.947s][info][gc          ] Concurrent uncommit 3M->3M(7M) 42.998ms
+[31.969s][info][gc          ] Transition from: normal to: idle
+[S 0] Thread 27 starting
+[S 0] [27] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff58000b20
+[S 0] [27] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff58000b20
+[S 0] Thread 28 starting
+[S 0] [28] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff50000b20
+[S 0] [28] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff50000b20
+[S 0] Thread 29 starting
+[S 0] [29] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff54000b20
+[S 0] [29] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff54000b20
+[S 0] Detected possible stall due to fake leaves (1 current)
+[S 0]  [0/6] INVALID (1) @ 0x7fffe2bdf255
+[S 0] Blacklisting from future fake leaves: [0] INVALID @ 0x7fffe2bdf255 | arg0 0x1 arg1 0x7fffd8096660
+[S 0] Thread 30 starting
+[S 0] [30] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff48000b20
+[S 0] [30] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff48000b20
+[S 0] Thread 31 starting
+[S 0] [31] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff4c000b20
+[S 0] [31] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff4c000b20
+[S 0] Thread 32 starting
+[S 0] [32] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff40000b20
+[S 0] [32] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff40000b20
+[S 0] Thread 33 starting
+[S 0] [33] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff3c000b20
+[S 0] [33] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff3c000b20
+[S 0] Thread 34 starting
+[S 0] [34] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff34000b20
+[S 0] [34] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff34000b20
+[S 0] [8] Post-patching SYS_sched_getaffinity size 128 cpuset 0x7fffc43fe850
+[S 0] [8] Post-patching SYS_sched_getaffinity size 128 cpuset 0x7fffc43fe850
+[S 0] Thread 35 starting
+[S 0] [35] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff38000b20
+[S 0] [35] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff38000b20
+[S 0] Thread 36 starting
+[S 0] [36] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff2c000b20
+[S 0] [36] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff2c000b20
+[S 0] Thread 36 finished
+[S 0] Thread 35 finished
+[S 0] Thread 37 starting
+[S 0] [37] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff380567b0
+[S 0] [37] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff380567b0
+[S 0] Thread 38 starting
+[S 0] [38] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff2c042450
+[S 0] [38] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff2c042450
+[S 0] [8] Post-patching SYS_sched_getaffinity size 128 cpuset 0x7fffc43fe850
+[S 0] [8] Post-patching SYS_sched_getaffinity size 128 cpuset 0x7fffc43fe850
+[S 0] Thread 38 finished
+[S 0] Thread 37 finished
+[S 0] Thread 39 starting
+[S 0] [39] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff381273e0
+[S 0] [39] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff381273e0
+4 query batches completed
+[S 0] Thread 40 starting
+[S 0] [40] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff2c199310
+[S 0] [40] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff2c1ca380
+8 query batches completed
+[S 0] Thread 40 finished
+[S 0] Thread 39 finished
+[H] Some fast-forwarding is going on, not doing deadlock detection (a: 1, ff: 1, sff: 0)
+[S 0] Thread 41 starting
+[S 0] [41] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff380afa70
+[S 0] [41] Post-patching SYS_sched_getaffinity size 32 cpuset 0x7fff380afa70
+[S 0] Thread 41 finished
+12 query batches completed
+16 query batches completed
+[51.820s][info][gc          ] Trigger (YOUNG): Learning 1 of 5. Free (694M) is below initial threshold (694M)
+[51.829s][info][gc          ] Heuristics request for young collection accepted
+[51.830s][info][gc          ] Transition from: idle to: normal
+[51.845s][info][gc,ergo     ] Free: 2529M, Max: 1024K regular, 2529M humongous, Frag: 0% external, 0% internal; Reserve: 149M, Max: 1024K
+[51.845s][info][gc,ergo     ] Start GC cycle (YOUNG)
+Start collect
+[51.846s][info][gc,start    ] GC(1) Concurrent reset
+[51.846s][info][gc,task     ] GC(1) Using 2 of 4 workers for concurrent reset
+[51.846s][info][gc,ergo     ] GC(1) Pacer for Reset. Non-Taxable: 2976M
+ANALYSIS START
+[S 0] Detected possible stall due to fake leaves (1 current)
+[S 0]  [0/7] INVALID (35) @ 0x7fffe2bb379e
+[S 0] Blacklisting from future fake leaves: [0] INVALID @ 0x7fffe2bb379e | arg0 0x7fffc5a99df0 arg1 0x0
+[52.182s][info][gc          ] GC(1) Concurrent reset 336.141ms
+C: Tool (or Pin) caused signal 11 at PC 0x7fffe64e22cd
+C: Location may be in in-lined analysis code, try re-running with '-inline 0' to debug it[H] Child 8297 done

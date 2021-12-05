@@ -41,7 +41,7 @@
 #define HAVE_USELOCALE 1
 
 /* Define to 1 if you have the <xlocale.h> header file. */
-#define HAVE_XLOCALE_H 1
+/* #undef HAVE_XLOCALE_H */
 
 /* Define to the sub-directory in which libtool stores uninstalled libraries.
    */

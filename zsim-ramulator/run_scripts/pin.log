@@ -1,0 +1,2 @@
+Pin 2.14 kit 71293
+E:  build/opt/zsim.cpp:484: Cannot use IARG_MEMORYREAD_SIZE on non-standard memory access of instruction at 0x7ffff7dea8b4: xrstor ptr [rsp+0x40]

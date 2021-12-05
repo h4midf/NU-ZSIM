@@ -1,0 +1,2 @@
+Pin 2.14 kit 71293
+E:  Unable to load /home/h4mid/Programming/second_try/ramulator-pim/zsim-ramulator/build/opt/libzsim.so: /home/h4mid/Programming/second_try/ramulator-pim/zsim-ramulator/build/opt/libzsim.so: undefined symbol: _ZN7OOOCoreC1EP11FilterCacheS1_RSbIcSt11char_traitsIcE12StlGlobAllocIcEEbbS7_b

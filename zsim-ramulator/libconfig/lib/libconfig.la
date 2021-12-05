@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/usr/local/google/home/geraldod/tools/ramulator-pim-infrastructure/zsim-ramulator/libconfig/lib'
+libdir='/root/zsim/ramulator-pim/zsim-ramulator/libconfig/lib'

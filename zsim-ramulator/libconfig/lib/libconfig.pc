@@ -1,4 +1,4 @@
-prefix=/usr/local/google/home/geraldod/tools/ramulator-pim-infrastructure/zsim-ramulator/libconfig
+prefix=/root/zsim/ramulator-pim/zsim-ramulator/libconfig
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include
